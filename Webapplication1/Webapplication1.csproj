@@ -5,11 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="7.3.3" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.1.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Modules.Common">
+      <HintPath>..\..\..\..\GSOT\SNV_TT\WebApiApplication\bin\Debug\net461\Modules.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
